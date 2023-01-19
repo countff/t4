@@ -21,7 +21,7 @@
   },
 
     "scripts": {
-        "build": "npx eleventy",
+        "build": "env NODE_ENV=production npx eleventy --pathprefix 't4'",
         "serve": "npx eleventy --serve",
         "debug": "DEBUG=* npx eleventy"
     }
